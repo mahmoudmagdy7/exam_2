@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yummy</title>
+  <!-- styles  -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<!-- بسم الله الرحمن الرحيم  -->
+
+<body class="bg-dark">
+  <button class="back-home btn btn-warning position-absolute d-none">X</button>
+
+  <!-- loading spinner  -->
+  <div class="loading align-items-center justify-content-center position-fixed w-100 h-100">
+    <div class="spinner">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <div class="bar4"></div>
+      <div class="bar5"></div>
+      <div class="bar6"></div>
+      <div class="bar7"></div>
+      <div class="bar8"></div>
+      <div class="bar9"></div>
+      <div class="bar10"></div>
+      <div class="bar11"></div>
+      <div class="bar12"></div>
+    </div>
+  </div>
+
+  <!-- navigation  -->
+  <nav class="position-fixed d-flex h-100">
+    <div class="left-side  p-4 bg-dark text-white d-flex flex-column justify-content-between">
+      <div class="links-container">
+        <ul class="list-unstyled position-absolute">
+          <li id="search" class=" py-2 position-relative">Search</li>
+          <li id="category" class=" py-2 position-relative">Categories</li>
+          <li id="area" class=" py-2 position-relative">Area</li>
+          <li id="ingredients" class=" py-2 position-relative">Ingredients</li>
+          <li id="contact-us" class=" py-2 position-relative">Contact Us</li>
+        </ul>
+      </div>
+      <div class="nav-footer">
+        <div class="social-icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fas fa-globe"></i>
+        </div>
+        <p>Copyright Â© 2019 All Rights
+          Reserved.</p>
+      </div>
+    </div>
+
+    <!-- navigation options -->
+    <div class="right-side py-4 d-flex bg-white flex-column justify-content-between align-items-center">
+      <figure class="w-75"><img src="images/favicon.png" class="img-fluid" alt=""></figure>
+      <div id="toggler" class="active position-relative">
+        <div class="active toggler-layer"></div>
+        <button id="openNav" class="border-0 bg-transparent"><i class="fas fa-bars"></i></button>
+        <button id="closeNav" class=" d-none border-0 bg-transparent"><i class="fas fa-x"></i></button>
+      </div>
+      <div class="icons d-flex flex-column">
+        <i class="fas fa-share-nodes"></i>
+        <i class="fas fa-globe"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- main content  -->
+  <main class="container rwo-sm text-white p-5">
+    <section id="content" class="row g-3">
+    </section>
+  </main>
+
+  <!-- all scripts -->
+  <script src="JS/JQuery.js"></script>
+  <script src="JS/all.min.js"></script>
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/main.js" type="module"></script>
+</body>
+
+</html>
